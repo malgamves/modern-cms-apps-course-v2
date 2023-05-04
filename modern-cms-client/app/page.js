@@ -2,6 +2,8 @@ import PageContainer from "@/components/PageContainer";
 import Main from "@/components/Main";
 import Title from "@/components/Title";
 import Description from "@/components/Description";
+import List from "@/components/List";
+
 
 export default async function Home() {
 
@@ -16,12 +18,8 @@ export default async function Home() {
         <Description>
           a recipe for disaster
         </Description>
-
-        {data.data.map((post) => (
-          <div key={post.attributes.slug}>
-            {post.attributes.title}
-          </div>
-        ))}
+        <List allPosts={data} />
+       
       </Main>
     </PageContainer>
   );

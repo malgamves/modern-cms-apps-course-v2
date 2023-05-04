@@ -13,7 +13,7 @@ const Pagination = ({ paginationData }) => {
         <h2 className="ml-6 text-left text-red-500 no-underline pb-1 max-w-md rounded-md font-bold text-2xl">
           <span className="text-black text-base font-semibold ">
             <div>
-              {/* {firstPage === currentPage && (
+              {firstPage === currentPage && (
                 <div className="hover:underline ">
                   <Link
                     href={{
@@ -26,9 +26,9 @@ const Pagination = ({ paginationData }) => {
                     next page{" "}
                   </Link>
                 </div>
-              )} */}
+              )}
 
-              {/* {pageCounter === currentPage && (
+              {pageCounter === currentPage && (
                 <div>
                   <Link
                     className="hover:underline"
@@ -54,9 +54,9 @@ const Pagination = ({ paginationData }) => {
                     next page{" "}
                   </Link>
                 </div>
-              )} */}
+              )}
 
-              {/* {currentPage === totalPage && (
+              {currentPage === totalPage && (
                 <div>
                   <Link
                     className="hover:underline"
@@ -70,7 +70,7 @@ const Pagination = ({ paginationData }) => {
                     previous page{" "}
                   </Link>
                 </div>
-              )} */}
+              )}
             </div>
           </span>
         </h2>

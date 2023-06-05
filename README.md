@@ -2,7 +2,7 @@
 
 So you want to learn how to build Modern CMS Driven Web Applications? You've come to the right place. 
 
-[Access course here]()
+[Access course here](https://egghead.io/courses/modern-cms-driven-web-applications-with-strapi-and-next-13-e923dbd8)
 
 ## Who is this course for
 

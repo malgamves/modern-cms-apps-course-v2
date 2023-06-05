@@ -18,7 +18,7 @@ This course is for anyone looking at adopting a Headless content architecture an
 - Connecting external services to your Headless CMS (like Cloudinary for Media Management)
 - Deploying your Next.js and Strapi Applications to a production environment
 - Setting up and using Strapi Plugins
-- Transfering data between your Strapi environements
+- Transferring data between your Strapi environments
 
 ## Pre-requisites
 Knowledge of the following;
